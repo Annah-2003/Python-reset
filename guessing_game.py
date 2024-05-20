@@ -14,12 +14,13 @@ def check_guess(number, guess):
         return "Congratulations! You guessed it!"
 
 def check_guess_and_update_label():
+    global guess_entry, feedback_label, number_to_guess
     guess = int(guess_entry.get())
     feedback = check_guess(number_to_guess, guess)
     feedback_label.config(text=feedback)
 
 def main():
-    global number_to_guess
+    global guess_entry, feedback_label, number_to_guess
     number_to_guess = generate_number()
 
     root = tk.Tk()

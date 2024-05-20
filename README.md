@@ -14,4 +14,8 @@ This is a simple guessing game written in Python. The game generates a random nu
 
 `Additionally, you can use the `number_facts.py` script to get interesting facts about any number. Simply run the script and enter a number when prompted.`
 
-Have fun!
+## Fortune Teller
+
+You can also try our Fortune Teller! Run the `fortune_teller.py` script and enter your name to receive a personalized fortune message.
+
+`Have fun!`
